@@ -47,7 +47,7 @@ public class Pokedex_Inicio extends javax.swing.JFrame {
 
         jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
+        btn_cambiar = new javax.swing.JButton();
         btn_Obtener = new javax.swing.JButton();
         txt_nombre = new javax.swing.JTextField();
         PokemonImage = new javax.swing.JLabel();
@@ -64,15 +64,15 @@ public class Pokedex_Inicio extends javax.swing.JFrame {
 
         jPanel1.setOpaque(false);
 
-        jButton1.setBackground(new java.awt.Color(255, 255, 255));
-        jButton1.setFont(new java.awt.Font("SimSun", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 0, 0));
-        jButton1.setText("CAMBIAR");
-        jButton1.setBorder(null);
-        jButton1.setContentAreaFilled(false);
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btn_cambiar.setBackground(new java.awt.Color(255, 255, 255));
+        btn_cambiar.setFont(new java.awt.Font("SimSun", 1, 14)); // NOI18N
+        btn_cambiar.setForeground(new java.awt.Color(0, 0, 0));
+        btn_cambiar.setText("CAMBIAR");
+        btn_cambiar.setBorder(null);
+        btn_cambiar.setContentAreaFilled(false);
+        btn_cambiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btn_cambiarActionPerformed(evt);
             }
         });
 
@@ -130,7 +130,7 @@ public class Pokedex_Inicio extends javax.swing.JFrame {
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                                 .addComponent(txt_nombre, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addContainerGap())
-                            .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btn_cambiar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btn_Obtener, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)))))
         );
         jPanel1Layout.setVerticalGroup(
@@ -141,7 +141,7 @@ public class Pokedex_Inicio extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(txt_nombre, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(58, 58, 58)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btn_cambiar, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btn_Obtener, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(29, 29, 29))
@@ -217,7 +217,7 @@ public class Pokedex_Inicio extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_ObtenerActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btn_cambiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_cambiarActionPerformed
        //SI EL PROXIMO RANDOM NUM QUE SE ALMACENA EN LA VARIABLE (VAR) ES IGUAL AL ANTERIOR 
        // QUE SE EJECUTE DENUEVO HASTA QUE CAMBIE
         
@@ -262,7 +262,7 @@ public class Pokedex_Inicio extends javax.swing.JFrame {
         }
 
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btn_cambiarActionPerformed
 
     private void txt_nombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_nombreActionPerformed
         // TODO add your handling code here:
@@ -309,7 +309,7 @@ public class Pokedex_Inicio extends javax.swing.JFrame {
     private javax.swing.JLabel PokemonImage;
     private javax.swing.JTextArea area;
     private javax.swing.JButton btn_Obtener;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btn_cambiar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane txt_descripcion;
